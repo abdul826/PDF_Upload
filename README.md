@@ -35,23 +35,29 @@ Uses MongoDB as the database.
    cd PDF_Upload
 
 2. **Install dependencies**
+   ```bash
    npm install
 
-3. **.env file**
+4. **.env file**
+      ```bash
     .env file is already present just add the details
 
-4. **Create uploads directory**
+6. **Create uploads directory**
+   ```bash
     mkdir uploads
 
-5. **Add below lien in package.json inside scripts**
+8. **Add below lien in package.json inside scripts**
+    ```bash
     "scripts": {
     "start": "nodemon server.js"
   }
 
-6. **Run the server**
+10. **Run the server**
+    ```bash
     npm start
 
-7. **API Endpoints with Methods**
+12. **API Endpoints with Methods**
+    ```bash
     Register(Post) -    http://localhost:8080/api/register
     Login(Post) -       http://localhost:8080/api/login
     Upload PDF(Post) -  http://localhost:8080/api/pdf/upload
@@ -60,8 +66,8 @@ Uses MongoDB as the database.
 
     Note: Mention your localhost Port in my case it is 8080
 
-8. **USES**
-
+14. **USES**
+   ```bash
     Register
     {
         "username": "test",
